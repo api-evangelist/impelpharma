@@ -1,8 +1,25 @@
 aid: impelpharma
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/impelpharma.png
 name: Impelpharma
-description: 'Impelpharma is a company surfaced as a portfolio company of norwest-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Impel Pharmaceuticals is a commercial-stage pharmaceutical company developing first-in-class
+  intranasal drug treatments for central nervous system (CNS) disorders with high unmet medical needs.
+  Its proprietary Precision Olfactory Delivery (POD) technology targets the vascular-rich upper nasal
+  cavity to achieve more rapid and consistent bioavailability than conventional delivery. Its lead
+  product, Trudhesa (dihydroergotamine mesylate) nasal spray, is approved for the acute treatment of
+  migraine with or without aura in adults. Impel was backed by Norwest Venture Partners (co-led its 2018
+  Series D) and later filed for bankruptcy in December 2023. This is a patient- and science-facing pharma
+  company with no public developer API, SDK, or documentation surface.'
 url: https://raw.githubusercontent.com/api-evangelist/impelpharma/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +27,21 @@ x-backed-by:
 - norwest-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-sector: pharmaceutical
+x-note: 'No developer/API surface as of 2026-07; company filed for bankruptcy December 2023.'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
-- Unknown
+- Pharmaceutical
+- Drug Delivery
+- Healthcare
+- Biotechnology
+- Migraine
+- CNS
+- Nasal Delivery
+- Life Sciences
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +51,18 @@ maintainers:
 common:
 - type: Website
   url: https://impelpharma.com
+- type: Blog
+  url: https://impelpharma.com/category/publications/
+- type: Support
+  url: https://impelpharma.com/contact/
+- type: PrivacyPolicy
+  url: https://impelpharma.com/privacy-policy/
+- type: TermsOfService
+  url: https://impelpharma.com/terms-of-service/
+- type: DomainSecurity
+  url: security/impelpharma-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

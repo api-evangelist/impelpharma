@@ -1,0 +1,21 @@
+{
+  "repo": "impelpharma",
+  "feeds": [
+    {
+      "source": "https://impelpharma.com/feed/",
+      "feed_url": "https://impelpharma.com/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://impelpharma.com",
+      "feed_url": "https://impelpharma.com/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 7,
+  "fetched": "2026-07-25T15:00:33Z"
+}
